@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28DCF4F83C388FDB8D00EC1F /* Pods_BottleRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D62826C6BABDE43F9932D7 /* Pods_BottleRocket.framework */; };
+		847C37EC1E08410900E92536 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847C37EB1E08410900E92536 /* CoreLocation.framework */; };
+		847C37EE1E08411100E92536 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847C37ED1E08411100E92536 /* CoreTelephony.framework */; };
+		847C38121E0863B100E92536 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847C38111E0863B100E92536 /* MapViewController.m */; };
+		848E60661E06EE80006449EE /* RestaurantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E60651E06EE80006449EE /* RestaurantDetailViewController.m */; };
+		848E60691E06F8B1006449EE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E60681E06F8B1006449EE /* MapKit.framework */; };
+		848E60751E074FA0006449EE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E60741E074FA0006449EE /* WebViewController.m */; };
+		848E60771E07553C006449EE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E60761E07553C006449EE /* WebKit.framework */; };
+		84BF968B1E058D1600CCB3F0 /* RestaurantCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF968A1E058D1600CCB3F0 /* RestaurantCollectionViewCell.m */; };
+		84C6CC8A1E04FEEC00B7E158 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CC891E04FEEC00B7E158 /* main.m */; };
+		84C6CC8D1E04FEEC00B7E158 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CC8C1E04FEEC00B7E158 /* AppDelegate.m */; };
+		84C6CC901E04FEEC00B7E158 /* RestaurantCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CC8F1E04FEEC00B7E158 /* RestaurantCollectionViewController.m */; };
+		84C6CC961E04FEEC00B7E158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CC941E04FEEC00B7E158 /* Main.storyboard */; };
+		84C6CC981E04FEEC00B7E158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CC971E04FEEC00B7E158 /* Assets.xcassets */; };
+		84C6CC9B1E04FEEC00B7E158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CC991E04FEEC00B7E158 /* LaunchScreen.storyboard */; };
+		84C6CCA51E05048700B7E158 /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CCA41E05048700B7E158 /* HTTPService.m */; };
+		84C6CCA91E0510C600B7E158 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CCA81E0510C600B7E158 /* Restaurant.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33D62826C6BABDE43F9932D7 /* Pods_BottleRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BottleRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		847C37EB1E08410900E92536 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		847C37ED1E08411100E92536 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		847C38101E0863B100E92536 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		847C38111E0863B100E92536 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		848E60641E06EE80006449EE /* RestaurantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailViewController.h; sourceTree = "<group>"; };
+		848E60651E06EE80006449EE /* RestaurantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailViewController.m; sourceTree = "<group>"; };
+		848E60681E06F8B1006449EE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		848E60731E074FA0006449EE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		848E60741E074FA0006449EE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		848E60761E07553C006449EE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		84BF96891E058D1600CCB3F0 /* RestaurantCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantCollectionViewCell.h; sourceTree = "<group>"; };
+		84BF968A1E058D1600CCB3F0 /* RestaurantCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantCollectionViewCell.m; sourceTree = "<group>"; };
+		84C6CC851E04FEEC00B7E158 /* BottleRocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottleRocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C6CC891E04FEEC00B7E158 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C6CC8B1E04FEEC00B7E158 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84C6CC8C1E04FEEC00B7E158 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84C6CC8E1E04FEEC00B7E158 /* RestaurantCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestaurantCollectionViewController.h; sourceTree = "<group>"; };
+		84C6CC8F1E04FEEC00B7E158 /* RestaurantCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantCollectionViewController.m; sourceTree = "<group>"; };
+		84C6CC951E04FEEC00B7E158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C6CC971E04FEEC00B7E158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C6CC9A1E04FEEC00B7E158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C6CC9C1E04FEEC00B7E158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C6CCA31E05048700B7E158 /* HTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
+		84C6CCA41E05048700B7E158 /* HTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
+		84C6CCA71E0510C600B7E158 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		84C6CCA81E0510C600B7E158 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		D54E32EE642049EA9AD0CD59 /* Pods-BottleRocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottleRocket.release.xcconfig"; path = "Pods/Target Support Files/Pods-BottleRocket/Pods-BottleRocket.release.xcconfig"; sourceTree = "<group>"; };
+		F23766D845DFA7D6795640FF /* Pods-BottleRocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottleRocket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BottleRocket/Pods-BottleRocket.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C6CC821E04FEEC00B7E158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847C37EE1E08411100E92536 /* CoreTelephony.framework in Frameworks */,
+				847C37EC1E08410900E92536 /* CoreLocation.framework in Frameworks */,
+				848E60771E07553C006449EE /* WebKit.framework in Frameworks */,
+				848E60691E06F8B1006449EE /* MapKit.framework in Frameworks */,
+				28DCF4F83C388FDB8D00EC1F /* Pods_BottleRocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848E60671E06F8B1006449EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847C37ED1E08411100E92536 /* CoreTelephony.framework */,
+				847C37EB1E08410900E92536 /* CoreLocation.framework */,
+				848E60761E07553C006449EE /* WebKit.framework */,
+				848E60681E06F8B1006449EE /* MapKit.framework */,
+				33D62826C6BABDE43F9932D7 /* Pods_BottleRocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C6CC7C1E04FEEC00B7E158 = {
+			isa = PBXGroup;
+			children = (
+				84C6CC871E04FEEC00B7E158 /* BottleRocket */,
+				84C6CC861E04FEEC00B7E158 /* Products */,
+				848E60671E06F8B1006449EE /* Frameworks */,
+				9D44C93812123F89A99C2D7F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		84C6CC861E04FEEC00B7E158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C6CC851E04FEEC00B7E158 /* BottleRocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C6CC871E04FEEC00B7E158 /* BottleRocket */ = {
+			isa = PBXGroup;
+			children = (
+				84C6CCAA1E05119600B7E158 /* View */,
+				84C6CCA61E0510B400B7E158 /* Model */,
+				84C6CCA21E05046D00B7E158 /* Services */,
+				84C6CC8E1E04FEEC00B7E158 /* RestaurantCollectionViewController.h */,
+				84C6CC8F1E04FEEC00B7E158 /* RestaurantCollectionViewController.m */,
+				848E60641E06EE80006449EE /* RestaurantDetailViewController.h */,
+				848E60651E06EE80006449EE /* RestaurantDetailViewController.m */,
+				848E60731E074FA0006449EE /* WebViewController.h */,
+				848E60741E074FA0006449EE /* WebViewController.m */,
+				847C38101E0863B100E92536 /* MapViewController.h */,
+				847C38111E0863B100E92536 /* MapViewController.m */,
+				84C6CC941E04FEEC00B7E158 /* Main.storyboard */,
+				84C6CC971E04FEEC00B7E158 /* Assets.xcassets */,
+				84C6CC991E04FEEC00B7E158 /* LaunchScreen.storyboard */,
+				84C6CC9C1E04FEEC00B7E158 /* Info.plist */,
+				84C6CC881E04FEEC00B7E158 /* Supporting Files */,
+			);
+			path = BottleRocket;
+			sourceTree = "<group>";
+		};
+		84C6CC881E04FEEC00B7E158 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C6CC8B1E04FEEC00B7E158 /* AppDelegate.h */,
+				84C6CC8C1E04FEEC00B7E158 /* AppDelegate.m */,
+				84C6CC891E04FEEC00B7E158 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C6CCA21E05046D00B7E158 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84C6CCA31E05048700B7E158 /* HTTPService.h */,
+				84C6CCA41E05048700B7E158 /* HTTPService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		84C6CCA61E0510B400B7E158 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84C6CCA71E0510C600B7E158 /* Restaurant.h */,
+				84C6CCA81E0510C600B7E158 /* Restaurant.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84C6CCAA1E05119600B7E158 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84BF96891E058D1600CCB3F0 /* RestaurantCollectionViewCell.h */,
+				84BF968A1E058D1600CCB3F0 /* RestaurantCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9D44C93812123F89A99C2D7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F23766D845DFA7D6795640FF /* Pods-BottleRocket.debug.xcconfig */,
+				D54E32EE642049EA9AD0CD59 /* Pods-BottleRocket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C6CC841E04FEEC00B7E158 /* BottleRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C6CC9F1E04FEEC00B7E158 /* Build configuration list for PBXNativeTarget "BottleRocket" */;
+			buildPhases = (
+				45EC3C82B5851E2326C60A75 /* [CP] Check Pods Manifest.lock */,
+				84C6CC811E04FEEC00B7E158 /* Sources */,
+				84C6CC821E04FEEC00B7E158 /* Frameworks */,
+				84C6CC831E04FEEC00B7E158 /* Resources */,
+				E7A7701863C170765859D7F6 /* [CP] Embed Pods Frameworks */,
+				E6B76FA46B715B4B1A4D5286 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BottleRocket;
+			productName = BottleRocket;
+			productReference = 84C6CC851E04FEEC00B7E158 /* BottleRocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C6CC7D1E04FEEC00B7E158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jett Raines";
+				TargetAttributes = {
+					84C6CC841E04FEEC00B7E158 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 23E573245P;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84C6CC801E04FEEC00B7E158 /* Build configuration list for PBXProject "BottleRocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C6CC7C1E04FEEC00B7E158;
+			productRefGroup = 84C6CC861E04FEEC00B7E158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C6CC841E04FEEC00B7E158 /* BottleRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C6CC831E04FEEC00B7E158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6CC9B1E04FEEC00B7E158 /* LaunchScreen.storyboard in Resources */,
+				84C6CC981E04FEEC00B7E158 /* Assets.xcassets in Resources */,
+				84C6CC961E04FEEC00B7E158 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45EC3C82B5851E2326C60A75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B76FA46B715B4B1A4D5286 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BottleRocket/Pods-BottleRocket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A7701863C170765859D7F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BottleRocket/Pods-BottleRocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C6CC811E04FEEC00B7E158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6CCA51E05048700B7E158 /* HTTPService.m in Sources */,
+				84BF968B1E058D1600CCB3F0 /* RestaurantCollectionViewCell.m in Sources */,
+				84C6CC8D1E04FEEC00B7E158 /* AppDelegate.m in Sources */,
+				847C38121E0863B100E92536 /* MapViewController.m in Sources */,
+				848E60751E074FA0006449EE /* WebViewController.m in Sources */,
+				848E60661E06EE80006449EE /* RestaurantDetailViewController.m in Sources */,
+				84C6CC901E04FEEC00B7E158 /* RestaurantCollectionViewController.m in Sources */,
+				84C6CCA91E0510C600B7E158 /* Restaurant.m in Sources */,
+				84C6CC8A1E04FEEC00B7E158 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84C6CC941E04FEEC00B7E158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6CC951E04FEEC00B7E158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C6CC991E04FEEC00B7E158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6CC9A1E04FEEC00B7E158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C6CC9D1E04FEEC00B7E158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C6CC9E1E04FEEC00B7E158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C6CCA01E04FEEC00B7E158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23766D845DFA7D6795640FF /* Pods-BottleRocket.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 23E573245P;
+				INFOPLIST_FILE = BottleRocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jettraines.BottleRocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BottleRocket-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84C6CCA11E04FEEC00B7E158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D54E32EE642049EA9AD0CD59 /* Pods-BottleRocket.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 23E573245P;
+				INFOPLIST_FILE = BottleRocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jettraines.BottleRocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BottleRocket-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C6CC801E04FEEC00B7E158 /* Build configuration list for PBXProject "BottleRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6CC9D1E04FEEC00B7E158 /* Debug */,
+				84C6CC9E1E04FEEC00B7E158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C6CC9F1E04FEEC00B7E158 /* Build configuration list for PBXNativeTarget "BottleRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6CCA01E04FEEC00B7E158 /* Debug */,
+				84C6CCA11E04FEEC00B7E158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C6CC7D1E04FEEC00B7E158 /* Project object */;
+}
