@@ -7,8 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <CoreTelephony/CTCarrier.h>
-#import <CoreTelephony/CTTelephonyNetworkInfo.h>
 @import GoogleMaps;
 
 @interface AppDelegate ()

@@ -19,4 +19,5 @@
 @property(nonatomic,strong) NSNumber *restaurantLatitude;
 @property(nonatomic,strong) NSNumber *restaurantLongitude;
 @property(nonatomic,strong) UIImage *restaurantImage;
+
 @end

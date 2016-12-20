@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		28DCF4F83C388FDB8D00EC1F /* Pods_BottleRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D62826C6BABDE43F9932D7 /* Pods_BottleRocket.framework */; };
-		847C37EC1E08410900E92536 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847C37EB1E08410900E92536 /* CoreLocation.framework */; };
-		847C37EE1E08411100E92536 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847C37ED1E08411100E92536 /* CoreTelephony.framework */; };
 		847C38121E0863B100E92536 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847C38111E0863B100E92536 /* MapViewController.m */; };
 		848E60661E06EE80006449EE /* RestaurantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E60651E06EE80006449EE /* RestaurantDetailViewController.m */; };
-		848E60691E06F8B1006449EE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E60681E06F8B1006449EE /* MapKit.framework */; };
 		848E60751E074FA0006449EE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E60741E074FA0006449EE /* WebViewController.m */; };
 		848E60771E07553C006449EE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E60761E07553C006449EE /* WebKit.framework */; };
 		84BF968B1E058D1600CCB3F0 /* RestaurantCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF968A1E058D1600CCB3F0 /* RestaurantCollectionViewCell.m */; };
@@ -28,13 +25,10 @@
 
 /* Begin PBXFileReference section */
 		33D62826C6BABDE43F9932D7 /* Pods_BottleRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BottleRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		847C37EB1E08410900E92536 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		847C37ED1E08411100E92536 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		847C38101E0863B100E92536 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		847C38111E0863B100E92536 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		848E60641E06EE80006449EE /* RestaurantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailViewController.h; sourceTree = "<group>"; };
 		848E60651E06EE80006449EE /* RestaurantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailViewController.m; sourceTree = "<group>"; };
-		848E60681E06F8B1006449EE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		848E60731E074FA0006449EE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		848E60741E074FA0006449EE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		848E60761E07553C006449EE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -63,10 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847C37EE1E08411100E92536 /* CoreTelephony.framework in Frameworks */,
-				847C37EC1E08410900E92536 /* CoreLocation.framework in Frameworks */,
 				848E60771E07553C006449EE /* WebKit.framework in Frameworks */,
-				848E60691E06F8B1006449EE /* MapKit.framework in Frameworks */,
 				28DCF4F83C388FDB8D00EC1F /* Pods_BottleRocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,10 +68,7 @@
 		848E60671E06F8B1006449EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				847C37ED1E08411100E92536 /* CoreTelephony.framework */,
-				847C37EB1E08410900E92536 /* CoreLocation.framework */,
 				848E60761E07553C006449EE /* WebKit.framework */,
-				848E60681E06F8B1006449EE /* MapKit.framework */,
 				33D62826C6BABDE43F9932D7 /* Pods_BottleRocket.framework */,
 			);
 			name = Frameworks;
